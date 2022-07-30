@@ -6,9 +6,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 @Entity
-public class Users {
+@Table(name="users")
+public class User {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -27,7 +29,7 @@ public class Users {
 		return "Users [user_id=" + user_id + ", role_id=" + role_id + ", "
 				+ "username=" + username + ", passwd=" + passwd + "]";
 	}
-	public Users() {
+	public User() {
 		super();
 		this.user_id = 0;
 		this.role_id = new Status();
