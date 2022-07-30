@@ -11,19 +11,13 @@ public class Games {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int game_id; 
-	private String gameName;
-	private String gameGenre; 
-	private String developeName; 
-	private int rentalDays;
+	private int quantity;
 	
 	
-	public Games(int game_id, String gameName, String gameGenre, String developeName, int rentalDays) {
+	public Games() {
 		super();
-		this.game_id = game_id;
-		this.gameName = gameName;
-		this.gameGenre = gameGenre;
-		this.developeName = developeName;
-		this.rentalDays = rentalDays;
+		this.game_id = 0;
+		this.quantity = 0;
 	}
 
 
@@ -37,51 +31,18 @@ public class Games {
 	}
 
 
-	public String getGameName() {
-		return gameName;
+	public int getQuantity() {
+		return quantity;
 	}
 
 
-	public void setGameName(String gameName) {
-		this.gameName = gameName;
-	}
-
-
-	public String getGameGenre() {
-		return gameGenre;
-	}
-
-
-	public void setGameGenre(String gameGenre) {
-		this.gameGenre = gameGenre;
-	}
-
-
-	public String getDevelopeName() {
-		return developeName;
-	}
-
-
-	public void setDevelopeName(String developeName) {
-		this.developeName = developeName;
-	}
-
-
-	public int getRentalDays() {
-		return rentalDays;
-	}
-
-
-	public void setRentalDays(int rentalDays) {
-		this.rentalDays = rentalDays;
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 
 
 	@Override
 	public String toString() {
-		return "Games [game_id=" + game_id + ", gameName=" + gameName + ", gameGenre=" + gameGenre + ", developeName="
-				+ developeName + ", rentalDays=" + rentalDays + "]";
-	}  
-	
-	
+		return "Games [game_id=" + game_id + ", quantity=" + quantity + "]";
+	} 	
 }
