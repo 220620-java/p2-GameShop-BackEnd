@@ -1,6 +1,7 @@
 package com.revature.gameshop.models;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -13,11 +14,10 @@ public class RentalHistory {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int rental_id; 
-	
-	@ManyToOne
+	@ManyToOne(targetEntity = User.class, fetch = FetchType.LAZY)
 	@JoinColumn(name="user_id")
 	private int user_id; 
-	@ManyToOne
+	@ManyToOne(targetEntity = Games.class, fetch = FetchType.LAZY)
 	@JoinColumn(name="game_id")
 	private int game_id; 
 	private String rentalStatus;

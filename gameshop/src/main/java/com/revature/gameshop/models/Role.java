@@ -4,28 +4,32 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
-public class Status {
+@Table(name="roles", schema="gameshop")
+public class Role {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	
 	private int role_id; 
 	private String role_name; 
 	private String role_description;
 	
 	
-	public Status(int role_id, String role_name, String role_description) {
-		super();
-		this.role_id = role_id;
-		this.role_name = role_name;
-		this.role_description = role_description;
+	public Role() {
+		this.role_id = 1;
+		this.role_name = "User";
+		this.role_description = "Game customer"; 
 	}
 
+//	public Role(int roleId, String role_name, String role_description) {
+//		this.role_id = roleId;
+//		this.role_name = role_name;
+//		this.role_description = role_description;
+//	}
 
-	public Status() {
-		// TODO Auto-generated constructor stub
-	}
 
 
 	public int getRole_id() {
@@ -33,8 +37,8 @@ public class Status {
 	}
 
 
-	public void setRole_id(int role_id) {
-		this.role_id = role_id;
+	public void setRoleId(int role) {
+		this.role_id = role;
 	}
 
 
