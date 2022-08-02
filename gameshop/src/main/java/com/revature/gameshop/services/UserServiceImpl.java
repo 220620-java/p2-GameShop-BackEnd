@@ -40,6 +40,7 @@ public class UserServiceImpl implements UserServices {
 			Optional<Role> role = roleRepo.findById(user.getRole_id().getRole_id()); 
 			if (role.isPresent()) {
 				user.setRole_id(role.get());
+				user.setLoggedIn(true);
 				return userRepo.save(user); 
 			}
 		}

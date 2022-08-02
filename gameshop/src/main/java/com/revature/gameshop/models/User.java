@@ -1,6 +1,5 @@
 package com.revature.gameshop.models;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -9,8 +8,11 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.springframework.stereotype.Component;
+
 
 @Entity
+@Component
 @Table(name="users", schema="gameshop")
 public class User {
 	
@@ -24,6 +26,7 @@ public class User {
 	private Role role_id; 
 	private String username; 
 	private String passwd;
+	private static boolean loggedIn = false; 
 	
 	
 	@Override
@@ -38,7 +41,7 @@ public class User {
 		this.user_id = user_id;
 		this.role_id = new Role();
 		this.username = username;
-		this.passwd = passwd;
+		this.passwd = passwd;	 
 	}
 
 
@@ -48,6 +51,7 @@ public class User {
 		this.role_id = new Role();
 		this.username = "";
 		this.passwd = "";
+		
 	}
 	public int getUser_id() {
 		return user_id;
@@ -73,5 +77,13 @@ public class User {
 	public void setPasswd(String passwd) {
 		this.passwd = passwd;
 	} 
+	
+	public static void setLoggedIn(Boolean s) {
+		loggedIn = true; 
+	}
+	
+	public static Boolean getLoggedIn() {
+		return loggedIn; 
+	}
 
 }
