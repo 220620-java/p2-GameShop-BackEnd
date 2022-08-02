@@ -17,7 +17,7 @@ public class RentalHistory {
 	@ManyToOne(targetEntity = User.class, fetch = FetchType.LAZY)
 	@JoinColumn(name="user_id")
 	private int user_id; 
-	@ManyToOne(targetEntity = Games.class, fetch = FetchType.LAZY)
+	@ManyToOne(targetEntity = Game.class, fetch = FetchType.LAZY)
 	@JoinColumn(name="game_id")
 	private int game_id; 
 	private String rentalStatus;

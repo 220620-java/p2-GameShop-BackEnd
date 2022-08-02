@@ -14,7 +14,7 @@ public class Reviews {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int review_id; 
-	@ManyToOne(targetEntity = Games.class, fetch = FetchType.LAZY)
+	@ManyToOne(targetEntity = Game.class, fetch = FetchType.LAZY)
 	@JoinColumn(name="game_id")
 	//? Do I need to change the datatype of game_id to games
 	private int game_id; 

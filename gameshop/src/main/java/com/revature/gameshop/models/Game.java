@@ -4,17 +4,19 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
-public class Games {
+@Table(name="games", schema="gameshop")
+public class Game {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int game_id; 
 	private int quantity;
 	
 	
-	public Games() {
+	public Game() {
 		super();
 		this.game_id = 0;
 		this.quantity = 0;
