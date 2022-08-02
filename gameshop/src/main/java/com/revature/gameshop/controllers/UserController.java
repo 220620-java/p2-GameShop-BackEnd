@@ -1,7 +1,5 @@
 package com.revature.gameshop.controllers;
 
-import java.sql.SQLException;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -31,7 +29,6 @@ public class UserController {
 	// Retrieves user by id
 	@GetMapping(path = "/{id}")
 	public ResponseEntity<User> getUser(@PathVariable("id") Integer user_id) {
-		
 		User user = userService.findUserById(user_id); 
 		if (user != null) {
 			return ResponseEntity.ok(user); 
@@ -54,23 +51,23 @@ public class UserController {
 	}
 	
 	@PutMapping(path="/{id}")
-	public ResponseEntity<User> updateUser(@RequestBody User user, Integer id) {
+	public ResponseEntity<User> updateUser(@RequestBody User user, @PathVariable("id") Integer user_id) {
 		
-		if (user != null && user.getUser_id() == id) {
+		if (user != null && user.getUser_id() == user_id) {
 			user = userService.updateUser(user); 
 			return ResponseEntity.status(HttpStatus.ACCEPTED).body(user); 
 		} else {
-			return null; 
+			return ResponseEntity.status(HttpStatus.NOT_MODIFIED).build();
 		}
 	}
 	
 	@DeleteMapping(path="/{id}")
-	public ResponseEntity<User> deleteUser(@RequestBody User user, Integer id) {
-		if (user != null && user.getUser_id() == id) {
+	public ResponseEntity<User> deleteUser(@RequestBody User user, @PathVariable("id") Integer user_id) {
+		if (user != null && user.getUser_id() == user_id) {
 			user = userService.deleteUser(user); 
 			return ResponseEntity.ok(user); 
 		}else 
-			return null; 
+			return ResponseEntity.status(HttpStatus.NOT_FOUND).build(); 
 	}
 
 }
