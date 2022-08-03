@@ -26,8 +26,6 @@ public class User {
 	private Role role_id; 
 	private String username; 
 	private String passwd;
-	private static boolean loggedIn = false; 
-	
 	
 	@Override
 	public String toString() {
@@ -77,13 +75,5 @@ public class User {
 	public void setPasswd(String passwd) {
 		this.passwd = passwd;
 	} 
-	
-	public static void setLoggedIn(Boolean s) {
-		loggedIn = true; 
-	}
-	
-	public static Boolean getLoggedIn() {
-		return loggedIn; 
-	}
 
 }

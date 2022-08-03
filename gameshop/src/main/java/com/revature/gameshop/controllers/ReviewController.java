@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.revature.gameshop.auth.Auth;
 import com.revature.gameshop.models.Review;
 import com.revature.gameshop.models.User;
 import com.revature.gameshop.services.ReviewServices;
@@ -18,13 +19,12 @@ import com.revature.gameshop.services.ReviewServices;
 @RestController
 @RequestMapping(path="/reviews")
 public class ReviewController {
-	
-	private User user;  
+	 
 	private ReviewServices reviewService; 
 	
 	public ReviewController(ReviewServices reviewService, User user) {
 		this.reviewService = reviewService; 
-		this.user = user; 
+		
 	}
 
 	
