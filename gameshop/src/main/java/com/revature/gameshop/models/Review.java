@@ -1,7 +1,6 @@
 package com.revature.gameshop.models;
 
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -14,7 +13,7 @@ import javax.persistence.Table;
 public class Review {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int review_id; 
 	@ManyToOne
 	@JoinColumn(name="game_id")

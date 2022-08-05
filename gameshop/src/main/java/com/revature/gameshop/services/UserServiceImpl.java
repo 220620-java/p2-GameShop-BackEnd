@@ -21,7 +21,6 @@ public class UserServiceImpl implements UserServices {
 	}
  
 	@Override
-	
 	public User loginUser(String username, String password) {
 		// TODO Auto-generated method stub
 		if (username != null && password != null) {
@@ -40,7 +39,6 @@ public class UserServiceImpl implements UserServices {
 			Optional<Role> role = roleRepo.findById(user.getRole_id().getRole_id()); 
 			if (role.isPresent()) {
 				user.setRole_id(role.get());
-				user.setLoggedIn(true);
 				return userRepo.save(user); 
 			}
 		}
@@ -75,8 +73,11 @@ public class UserServiceImpl implements UserServices {
 	public User updateUser(User user) {
 		// TODO Auto-generated method stub
 		if (user != null) {
-			user = userRepo.save(user); 
-			return user; 
+			Optional<Role> role = roleRepo.findById(user.getRole_id().getRole_id()); 
+			if (role.isPresent()) {
+				user.setRole_id(role.get());
+				return userRepo.save(user); 
+			}
 		}
 		return null;
 	}
