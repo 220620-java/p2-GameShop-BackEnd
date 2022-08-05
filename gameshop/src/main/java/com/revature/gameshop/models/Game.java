@@ -11,7 +11,7 @@ import javax.persistence.Table;
 public class Game {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int game_id; 
 	private int quantity;
 	
@@ -21,6 +21,17 @@ public class Game {
 		this.game_id = 0;
 		this.quantity = 0;
 	}
+	
+	
+
+
+	public Game(int game_id, int quantity) {
+		super();
+		this.game_id = game_id;
+		this.quantity = quantity;
+	}
+
+
 
 
 	public int getGame_id() {

@@ -48,9 +48,9 @@ public class ReviewServicesImpl implements ReviewServices {
 	@Override
 	public Review updateReview(Review r) {
 		// TODO Auto-generated method stub
-		Review review = reviewRepo.save(r); 
-		if (review != null) {
-			return review; 
+		r = addReview(r); 
+		if (r != null) {
+			return r; 
 		}
 		return null;
 	}

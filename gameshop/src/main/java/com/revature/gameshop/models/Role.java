@@ -6,13 +6,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
 @Entity
 @Table(name="roles", schema="gameshop")
 public class Role {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int role_id; 
 	private String role_name; 
 	private String role_description;
@@ -24,11 +24,11 @@ public class Role {
 		this.role_description = "Game customer"; 
 	}
 
-//	public Role(int roleId, String role_name, String role_description) {
-//		this.role_id = roleId;
-//		this.role_name = role_name;
-//		this.role_description = role_description;
-//	}
+	public Role(int roleId, String role_name, String role_description) {
+		this.role_id = roleId;
+		this.role_name = role_name;
+		this.role_description = role_description;
+	}
 
 
 
@@ -64,7 +64,7 @@ public class Role {
 
 	@Override
 	public String toString() {
-		return "Status [role_id=" + role_id + ", role_name=" + role_name + ", role_description=" + role_description
+		return "role [role_id=" + role_id + ", role_name=" + role_name + ", role_description=" + role_description
 				+ "]";
 	} 
 	

@@ -8,20 +8,19 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import org.springframework.stereotype.Component;
 
 
-@Entity
-@Component
+
+@Entity 
 @Table(name="users", schema="gameshop")
 public class User {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int user_id; 
 	// Many to one. Many users an have the same role. 
 	// mention parent column in JoinColumn/the field the foreign key is referencing too. 
-	@ManyToOne()
+	@ManyToOne
 	@JoinColumn(name="role_id")
 	private Role role_id; 
 	private String username; 
@@ -40,6 +39,10 @@ public class User {
 		this.role_id = new Role();
 		this.username = username;
 		this.passwd = passwd;	 
+	}
+	
+	public User(int user_id) {
+		this.user_id = user_id;
 	}
 
 

@@ -1,5 +1,7 @@
 package com.revature.gameshop.controllers;
 
+import java.util.Map;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -22,14 +24,14 @@ public class AuthController {
 	}
 	
 	@PostMapping 
-	public ResponseEntity<User> login(@RequestBody User user) {
+	public ResponseEntity<User> login(@RequestBody Map<String, String> user) {
 		
-		String username = user.getUsername(); 
-		String password = user.getPasswd(); 
+		String username = user.get("username");
+		String password = user.get("passwd"); 
 		
 		User u = userServ.loginUser(username, password); 
 		if (u != null) {
-			return ResponseEntity.status(200).header("Auth", "gamshop2022").body(null); 
+			return ResponseEntity.status(200).header("Auth", "gamshop2022").body(u); 
 		}else {
 			return ResponseEntity.status(HttpStatus.NOT_FOUND).build(); 
 		}
