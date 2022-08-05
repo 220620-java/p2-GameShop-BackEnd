@@ -16,7 +16,7 @@ import javax.persistence.Table;
 public class User {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int user_id; 
 	// Many to one. Many users an have the same role. 
 	// mention parent column in JoinColumn/the field the foreign key is referencing too. 
