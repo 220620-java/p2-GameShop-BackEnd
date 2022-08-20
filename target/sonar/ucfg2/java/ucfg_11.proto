@@ -1,0 +1,37 @@
+
+>com.revature.gameshop.models.Game#toString()Ljava/lang/String;à
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Game.java: :("1*ç	
+1à
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Game.java;	 ;(Õ
+ 
+à
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Game.java;	 ;($
+%0java.lang.String"__concat*
+Games [game_id=*
+""€
+ÿ
+à
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Game.java;	 ;(4
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+, quantity=“
+œ
+à
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Game.java;	 ;(?
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+""—
+Œ
+à
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Game.java;	 ;(E
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+]"•
+à
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Game.java; ;(F
+
+%3java.lang.StringB%#
+!com.revature.gameshop.models.Game

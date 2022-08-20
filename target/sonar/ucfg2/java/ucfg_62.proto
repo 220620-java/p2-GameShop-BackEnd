@@ -1,0 +1,101 @@
+
+}com.revature.gameshop.services.UserServiceImpl#signUp(Lcom/revature/gameshop/models/User;)Lcom/revature/gameshop/models/User;–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java$ $("startingBlock*É
+2–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java) )(–“
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java) )('
+%5!com.revature.gameshop.models.Role"*java.util.Optional#get()Ljava/lang/Object;*
+
+rolejava.util.Optional2get()…‚
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java) )(
+
+%6void"Rcom.revature.gameshop.models.User#setRole_id(Lcom/revature/gameshop/models/Role;)V*+
+)
+user!com.revature.gameshop.models.User*)
+'
+%5!com.revature.gameshop.models.Role2/setRole_id(Lcom/revature/gameshop/models/Role;)›
+˜
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java* *(5
+%7/com.revature.gameshop.repository.UserRepository"__id*@*>0
+.com.revature.gameshop.services.UserServiceImpl"
+
+userRepo¤¡
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java* *('
+%8!com.revature.gameshop.models.User"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*7
+5
+%7/com.revature.gameshop.repository.UserRepository*+
+)
+user!com.revature.gameshop.models.User2save(Ljava/lang/Object;)"Ä
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java* *()
+'
+%8!com.revature.gameshop.models.User*…
+3–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java' '(!›
+˜
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java' '(!5
+%0/com.revature.gameshop.repository.RoleRepository"__id*@*>0
+.com.revature.gameshop.services.UserServiceImpl"
+
+roleRepoÓÐ
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java'+ '(<'
+%1!com.revature.gameshop.models.Role"Qcom.revature.gameshop.models.User#getRole_id()Lcom/revature/gameshop/models/Role;*+
+)
+user!com.revature.gameshop.models.User2getRole_id()‘Ž
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java'+ '(I	
+%2int"/com.revature.gameshop.models.Role#getRole_id()I*)
+'
+%1!com.revature.gameshop.models.Role2getRole_id()ÿü
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java' '(J
+%3java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*7
+5
+%0/com.revature.gameshop.repository.RoleRepository*
+	
+%2int2findById(Ljava/lang/Object;)Ú
+×
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java' '(K
+rolejava.util.Optional"__id*
+
+%3java.util.Optional÷ô
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java( ((
+%4boolean"java.util.Optional#isPresent()Z*
+
+rolejava.util.Optional2isPresent()*
+2
+1*†
+startingBlock–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java$ $(ó
+ð
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java# #(
+
+%9"
+__annotate*
+java.lang.Override*+
+)
+user!com.revature.gameshop.models.UserÝ
+Ú
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java$ $()
+user!com.revature.gameshop.models.User"__annotation*
+
+%9*
+3
+1*À
+1–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java-	 -("¡
+–
+‹/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/services/UserServiceImpl.java- -(
+"":)
+user!com.revature.gameshop.models.UserB20
+.com.revature.gameshop.services.UserServiceImpl

@@ -1,0 +1,3 @@
+com.revature.gameshop.services.GameServicesImpl#getGame(Ljava/lang/Integer;)Lcom/revature/gameshop/models/Game;
+java.util.Optional#isPresent()Z
+java.util.Optional#get()Ljava/lang/Object;

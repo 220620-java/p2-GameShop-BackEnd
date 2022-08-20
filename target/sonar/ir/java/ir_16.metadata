@@ -1,0 +1,1 @@
+com.revature.gameshop.services.RentalHistoryServicesImpl#<init>(Lcom/revature/gameshop/repository/GameRepository;Lcom/revature/gameshop/repository/UserRepository;Lcom/revature/gameshop/repository/RentalHistoryRepository;)V

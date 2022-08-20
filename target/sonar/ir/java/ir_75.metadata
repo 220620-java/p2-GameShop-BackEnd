@@ -1,0 +1,3 @@
+com.revature.gameshop.services.UserServiceImpl#findUserById(Ljava/lang/Integer;)Lcom/revature/gameshop/models/User;
+java.util.Optional#isPresent()Z
+java.util.Optional#get()Ljava/lang/Object;

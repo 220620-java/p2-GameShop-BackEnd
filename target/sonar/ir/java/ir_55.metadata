@@ -1,0 +1,5 @@
+com.revature.gameshop.auth.JwtConfig#createKey()V
+javax.xml.bind.DatatypeConverter#parseBase64Binary(Ljava/lang/String;)[B
+javax.crypto.spec.SecretKeySpec#<init>([BLjava/lang/String;)V
+javax.crypto.spec.SecretKeySpec#instance-init#
+io.jsonwebtoken.SignatureAlgorithm#getJcaName()Ljava/lang/String;

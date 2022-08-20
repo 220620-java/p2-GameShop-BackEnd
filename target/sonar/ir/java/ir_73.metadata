@@ -1,0 +1,2 @@
+com.revature.gameshop.services.UserServiceImpl#loginUser(Ljava/lang/String;Ljava/lang/String;)Lcom/revature/gameshop/models/User;
+java.lang.String#equals(Ljava/lang/Object;)Z

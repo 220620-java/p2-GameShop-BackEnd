@@ -1,0 +1,66 @@
+
+>com.revature.gameshop.models.Role#toString()Ljava/lang/String;ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Role.javaB B("1*½
+1ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Role.javaC	 C(Ì
+É
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Role.javaC	 C(#
+%0java.lang.String"__concat*
+role [role_id=*
+""Ü
+Ù
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Role.javaC	 C(4
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+, role_name=â
+ß
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Role.javaC7 C(@
+%2java.lang.String"__id*4*2#
+!com.revature.gameshop.models.Role"
+	role_nameä
+á
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Role.javaC	 C(@
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.Stringã
+à
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Role.javaC	 C(X
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+, role_description=é
+æ
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Role.javaC[ C(k
+%5java.lang.String"__id*;*9#
+!com.revature.gameshop.models.Role"
+role_descriptionä
+á
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Role.javaC	 C(k
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.lang.StringÑ
+Î
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Role.javaC	 D(	
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+]"¥
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Role.javaC D(
+
+
+%7java.lang.StringB%#
+!com.revature.gameshop.models.Role
