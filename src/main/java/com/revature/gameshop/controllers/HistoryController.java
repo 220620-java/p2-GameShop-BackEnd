@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.revature.gameshop.models.RentalHistory;
-import com.revature.gameshop.models.Review;
 import com.revature.gameshop.services.RentalHistoryServices;
 
 @RestController
