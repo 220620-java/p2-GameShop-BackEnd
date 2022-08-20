@@ -1,9 +1,7 @@
 package com.revature.gameshop.services;
 
 import java.util.Optional;
-
 import org.springframework.stereotype.Service;
-
 import com.revature.gameshop.models.Game;
 import com.revature.gameshop.repository.GameRepository;
 
@@ -24,9 +22,11 @@ public class GameServicesImpl implements GameServices {
 		Optional<Game> gameOpt = gameRepo.findById(id);
 		if (gameOpt.isPresent()) {
 			return gameOpt.get(); 
+		}else  {
+			return null;
+
 		}
 		
-		return null;
 	}
 
 	@Override
