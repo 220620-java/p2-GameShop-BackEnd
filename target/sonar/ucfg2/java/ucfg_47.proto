@@ -1,0 +1,80 @@
+
+@com.revature.gameshop.models.Review#toString()Ljava/lang/String;‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaU U("1*¯
+1‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaV	 V(Ô
+Ñ
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaV	 V(*
+%0java.lang.String"__concat*
+Reviews [review_id=*
+""Ý
+Ú
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaV	 V(9
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+
+, game_id=ö
+ó
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaV< V(C'
+%2!com.revature.gameshop.models.Game"__id*4*2%
+#com.revature.gameshop.models.Review"	
+game_idø
+õ
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaV	 V(C
+%3java.lang.String"__concat*
+
+%1java.lang.String*)
+'
+%2!com.revature.gameshop.models.GameÜ
+Ù
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaV	 V(Q
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+	, rating=Õ
+Ò
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaV	 V(Z
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+""á
+Þ
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaV	 V(m
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+, description=é
+æ
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaW W(
+%7java.lang.String"__id*8*6%
+#com.revature.gameshop.models.Review"
+descriptionç
+ä
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaV	 W(
+%8java.lang.String"__concat*
+
+%6java.lang.String*
+
+%7java.lang.StringÔ
+Ñ
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaV	 W(
+%9java.lang.String"__concat*
+
+%8java.lang.String*
+]"¨
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.javaV W(
+
+%9java.lang.StringB'%
+#com.revature.gameshop.models.Review

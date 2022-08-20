@@ -11,7 +11,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import io.jsonwebtoken.SignatureAlgorithm;
-import io.jsonwebtoken.security.Keys;
 
 
 
@@ -30,7 +29,7 @@ public class JwtConfig {
 	
 	// i'm using RS256 because it's widely supported. this algorithm
 	// requires a 540-character (2048 bit) key.
-	private final SignatureAlgorithm sigAlg = SignatureAlgorithm.HS256;
+	private final static SignatureAlgorithm sigAlg = SignatureAlgorithm.HS256;
 	private Key signingKey;
 	
 	// this annotation means that the method should be

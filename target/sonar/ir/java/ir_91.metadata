@@ -1,0 +1,3 @@
+com.revature.gameshop.models.User#<init>()V
+com.revature.gameshop.models.Role#<init>()V
+com.revature.gameshop.models.Role#instance-init#

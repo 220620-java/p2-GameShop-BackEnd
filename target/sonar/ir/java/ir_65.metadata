@@ -1,0 +1,2 @@
+com.revature.gameshop.controllers.UserController#updateUser(Lcom/revature/gameshop/models/User;Ljava/lang/Integer;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatus;)Lorg/springframework/http/ResponseEntity$BodyBuilder;

@@ -1,0 +1,95 @@
+
+>com.revature.gameshop.models.User#toString()Ljava/lang/String;ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java ("1*È
+1ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java	 (Í
+Ê
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java	 ($
+%0java.lang.String"__concat*
+Users [user_id=*
+""Ú
+×
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java	 (3
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+
+, role_id=ñ
+î
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java6 (='
+%2!com.revature.gameshop.models.Role"__id*2*0#
+!com.revature.gameshop.models.User"	
+role_idõ
+ò
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java	 (=
+%3java.lang.String"__concat*
+
+%1java.lang.String*)
+'
+%2!com.revature.gameshop.models.RoleÒ
+Ï
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java	 (D
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+, Ù
+Ö
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java	  (
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+	username=á
+Þ
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java   (
+%6java.lang.String"__id*3*1#
+!com.revature.gameshop.models.User"
+
+usernameä
+á
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java	  (
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.StringÙ
+Ö
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java	  (*
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+	, passwd=ß
+Ü
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java -  (3
+%9java.lang.String"__id*1*/#
+!com.revature.gameshop.models.User"
+passwdå
+â
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java	  (3
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.lang.StringÓ
+Ð
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java	  (9
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+]"¦
+ˆ
+~/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/User.java  (:
+
+%11java.lang.StringB%#
+!com.revature.gameshop.models.User

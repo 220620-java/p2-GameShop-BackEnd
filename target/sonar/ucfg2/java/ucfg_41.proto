@@ -1,0 +1,16 @@
+
+Scom.revature.gameshop.models.Review#getGame_id()Lcom/revature/gameshop/models/Game;‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.java0 0("1*Æ
+1‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.java1	 1(ö
+ó
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.java1	 1('
+%0!com.revature.gameshop.models.Game"__id*4*2%
+#com.revature.gameshop.models.Review"	
+game_id"¹
+‹
+€/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/Review.java1 1()
+'
+%0!com.revature.gameshop.models.GameB'%
+#com.revature.gameshop.models.Review

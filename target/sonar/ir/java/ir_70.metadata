@@ -1,0 +1,1 @@
+com.revature.gameshop.GameshopApplication#corsConfig()Lorg/springframework/web/servlet/config/annotation/WebMvcConfigurer;

@@ -1,0 +1,3 @@
+com.revature.gameshop.services.RentalHistoryServicesImpl#addHistory(Lcom/revature/gameshop/models/RentalHistory;)Lcom/revature/gameshop/models/RentalHistory;
+java.util.Optional#isPresent()Z
+java.util.Optional#get()Ljava/lang/Object;

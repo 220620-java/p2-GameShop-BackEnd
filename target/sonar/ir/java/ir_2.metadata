@@ -1,0 +1,4 @@
+com.revature.gameshop.controllers.ReviewController#getReview(Ljava/lang/Integer;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#notFound()Lorg/springframework/http/ResponseEntity$HeadersBuilder;
+org.springframework.http.ResponseEntity#badRequest()Lorg/springframework/http/ResponseEntity$BodyBuilder;

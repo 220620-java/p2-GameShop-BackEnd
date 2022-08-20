@@ -1,0 +1,137 @@
+
+Ücom.revature.gameshop.controllers.UserController#addUser(Lcom/revature/gameshop/models/User;)Lorg/springframework/http/ResponseEntity;ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java+ +($"startingBlock*é
+startingBlockò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java+$ +(<a
+_
+
+__unknown_file (
+%9"__id*7*5
+)
+user!com.revature.gameshop.models.User"
+passwdc
+a
+
+__unknown_file (
+%10"__id*8*6
+)
+user!com.revature.gameshop.models.User"	
+role_idd
+b
+
+__unknown_file (
+%11"__id*9*7
+)
+user!com.revature.gameshop.models.User"
+
+usernameÛ
+
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java+% +(1
+%12"
+__annotate*75
+3org.springframework.web.bind.annotation.RequestBody*
+
+%11Ó
+Î
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java+7 +(;7
+)
+user!com.revature.gameshop.models.User"
+
+username"__annotation*
+
+%12Û
+
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java+% +(1
+%13"
+__annotate*75
+3org.springframework.web.bind.annotation.RequestBody*
+
+%10Ì
+Í
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java+7 +(;6
+)
+user!com.revature.gameshop.models.User"	
+role_id"__annotation*
+
+%13Ú
+Ô
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java+% +(1
+%14"
+__annotate*75
+3org.springframework.web.bind.annotation.RequestBody*
+
+%9Ï
+È
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java+7 +(;5
+)
+user!com.revature.gameshop.models.User"
+passwd"__annotation*
+
+%14*
+8*Ì
+5ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java. .(?"Ã
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java. .(?/
+-
+%4'org.springframework.http.ResponseEntity*Ó
+6ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java.9 .(=»≈
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java.
+ .(>-
+%4'org.springframework.http.ResponseEntity"uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*;
+9
+%33org.springframework.http.ResponseEntity$BodyBuilder*+
+)
+user!com.revature.gameshop.models.User2body(Ljava/lang/Object;)*
+5*Ω
+7ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java- -("˙
+˜
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java- -(")
+user!com.revature.gameshop.models.User"__id*)
+'
+%1!com.revature.gameshop.models.User◊
+‘
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java.  .(2)
+%2#org.springframework.http.HttpStatus"__id*
+""¿
+Ω
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java.
+ .(39
+%33org.springframework.http.ResponseEntity$BodyBuilder"äorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatus;)Lorg/springframework/http/ResponseEntity$BodyBuilder;*+")
+'org.springframework.http.ResponseEntity*+
+)
+%2#org.springframework.http.HttpStatus*
+6*ô
+8ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java-
+ -(û
+õ
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java-
+ -(1
+%0+com.revature.gameshop.services.UserServices"__id*E*C2
+0com.revature.gameshop.controllers.UserController"
+userService“œ
+ò
+ç/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/UserController.java-
+ -("'
+%1!com.revature.gameshop.models.User"zcom.revature.gameshop.services.UserServices#signUp(Lcom/revature/gameshop/models/User;)Lcom/revature/gameshop/models/User;*3
+1
+%0+com.revature.gameshop.services.UserServices*+
+)
+user!com.revature.gameshop.models.User2+signUp(Lcom/revature/gameshop/models/User;)*
+7:)
+user!com.revature.gameshop.models.UserB42
+0com.revature.gameshop.controllers.UserController

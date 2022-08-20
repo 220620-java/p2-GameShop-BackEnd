@@ -17,7 +17,6 @@ import com.revature.gameshop.services.UserServices;
 public class AuthController {
 	
 	private UserServices userServ; 
-	//private ToKenService tokenServ; 
 	
 	public AuthController(UserServices userServ) {
 		this.userServ = userServ; 

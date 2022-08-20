@@ -1,0 +1,3 @@
+com.revature.gameshop.controllers.AuthController#login(Ljava/util/Map;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatus;)Lorg/springframework/http/ResponseEntity$BodyBuilder;
+org.springframework.http.ResponseEntity#status(I)Lorg/springframework/http/ResponseEntity$BodyBuilder;

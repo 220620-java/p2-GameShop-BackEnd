@@ -1,0 +1,77 @@
+
+œcom.revature.gameshop.controllers.GameController#deleteUser(Lcom/revature/gameshop/models/Game;Ljava/lang/Integer;)Lorg/springframework/http/ResponseEntity;˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaH H('"3"1*û
+2˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaJ
+ J(ž
+›
+˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaJ
+ J(1
+%1+com.revature.gameshop.services.GameServices"__id*E*C2
+0com.revature.gameshop.controllers.GameController"
+gameServiceÚ×
+˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaJ
+ J(&'
+%2!com.revature.gameshop.models.Game"~com.revature.gameshop.services.GameServices#deleteGame(Lcom/revature/gameshop/models/Game;)Lcom/revature/gameshop/models/Game;*3
+1
+%1+com.revature.gameshop.services.GameServices*+
+)
+game!com.revature.gameshop.models.Game2/deleteGame(Lcom/revature/gameshop/models/Game;)ú
+÷
+˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaJ J(&)
+game!com.revature.gameshop.models.Game"__id*)
+'
+%2!com.revature.gameshop.models.Game
+
+˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaK
+ K(!-
+%3'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*+")
+'org.springframework.http.ResponseEntity*+
+)
+game!com.revature.gameshop.models.Game"Ì
+˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaK K("/
+-
+%3'org.springframework.http.ResponseEntity*¾
+3˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaI I(•’
+˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaI I('	
+%0int"/com.revature.gameshop.models.Game#getGame_id()I*+
+)
+game!com.revature.gameshop.models.Game2getGame_id()*
+2
+1*‰
+1˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaM
+ M(×
+Ô
+˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaM  M(4)
+%4#org.springframework.http.HttpStatus"__id*
+""À
+½
+˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaM
+ M(59
+%53org.springframework.http.ResponseEntity$BodyBuilder"Šorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatus;)Lorg/springframework/http/ResponseEntity$BodyBuilder;*+")
+'org.springframework.http.ResponseEntity*+
+)
+%4#org.springframework.http.HttpStatusüù
+˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaM
+ M(=-
+%6'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity$HeadersBuilder#build()Lorg/springframework/http/ResponseEntity;*;
+9
+%53org.springframework.http.ResponseEntity$BodyBuilder2build()"Ì
+˜
+/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/controllers/GameController.javaM M(>/
+-
+%6'org.springframework.http.ResponseEntity:)
+game!com.revature.gameshop.models.Game:
+game_idjava.lang.IntegerB42
+0com.revature.gameshop.controllers.GameController

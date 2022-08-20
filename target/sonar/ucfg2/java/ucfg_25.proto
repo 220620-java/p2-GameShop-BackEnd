@@ -1,0 +1,16 @@
+
+Ncom.revature.gameshop.models.RentalHistory#getRentalStatus()Ljava/lang/String;’
+‡/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/RentalHistory.javaF F("1*Å
+1’
+‡/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/RentalHistory.javaG	 G(ø
+õ
+’
+‡/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/RentalHistory.javaG	 G(
+%0java.lang.String"__id*@*>,
+*com.revature.gameshop.models.RentalHistory"
+rentalstatus"¯
+’
+‡/Users/razaghulam/Desktop/Revature /Projects/p2-GameShop-BackEnd/gameshop/src/main/java/com/revature/gameshop/models/RentalHistory.javaG G(
+
+%0java.lang.StringB.,
+*com.revature.gameshop.models.RentalHistory

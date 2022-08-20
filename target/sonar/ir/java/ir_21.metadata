@@ -1,0 +1,5 @@
+com.revature.gameshop.models.RentalHistory#<init>()V
+com.revature.gameshop.models.Game#instance-init#
+com.revature.gameshop.models.Game#<init>()V
+com.revature.gameshop.models.User#<init>()V
+com.revature.gameshop.models.User#instance-init#

@@ -1,0 +1,2 @@
+com.revature.gameshop.controllers.GameController#updateGame(Lcom/revature/gameshop/models/Game;Ljava/lang/Integer;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatus;)Lorg/springframework/http/ResponseEntity$BodyBuilder;
