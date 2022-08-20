@@ -49,12 +49,13 @@ public class RentalHistoryServicesImpl implements RentalHistoryServices {
 		if (userOpt.isPresent() && gameOpt.isPresent()) {
 			history.setUser_id(userOpt.get());
 			history.setGame_id(gameOpt.get());
-			history = rentalRepo.save(history); 
-			if (history != null) {
+			try {
+				history = rentalRepo.save(history); 
 				return history; 
-			} else {
+			}catch (IllegalArgumentException e) {
+				e.getMessage(); 
 				return null; 
-			}
+			}		
 		}else {
 			return null; 
 		}		

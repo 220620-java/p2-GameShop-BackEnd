@@ -20,9 +20,11 @@ public class UserServiceImpl implements UserServices {
 		this.roleRepo = roleRepo; 
 	}
  
+	/**
+	 * To login user. 
+	 */
 	@Override
 	public User loginUser(String username, String password) {
-		// TODO Auto-generated method stub
 		if (username != null && password != null) {
 			User user = userRepo.findByUsername(username); 
 			if (user != null && password.equals(user.getPasswd())) {
@@ -91,6 +93,10 @@ public class UserServiceImpl implements UserServices {
 		}
 		return null; 
 		
+	}
+	
+	public void show() {
+		System.out.println("Testing codebuild and sonoar cloud");
 	}
 
 }
